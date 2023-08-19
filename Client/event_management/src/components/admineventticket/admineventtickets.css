@@ -1,0 +1,19 @@
+.container_t{
+    margin-top: 30px;
+}
+
+.small-con{
+    border:2px solid rgb(111, 0, 255);
+margin-bottom: 20px;
+padding: 10px 10px;
+color: grey;
+text-align: left;
+width: 70%;
+margin-left: 15%;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:20px ;
+}

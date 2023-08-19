@@ -1,0 +1,104 @@
+.maincon{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 1px solid black;
+    padding: 25px 25px;
+    width: 80%;
+    position: relative;
+    /* justify-content: space-between; */
+}
+
+.imgcon{
+    width: 250px;
+    height: 250px;
+}
+
+.detailcon{
+    margin-left: 30px;
+    text-align: left;
+    /* margin-right: 230px; */
+}
+
+.detailcon h5{
+color:grey;
+line-height: 35px;
+}
+
+.tbook{
+    width: 250px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.tlikedcont{
+    width: 250px;
+    position: absolute;
+    bottom: 100px;
+    right: 25px;
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+
+.coment{
+    width: 350px;
+    position: absolute;
+    bottom: 35px;
+    right: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap:10px
+}
+
+.postbtn{
+    width: 70px;
+    position: relative;
+    right:40px
+    /* margin-right: 20px; */
+}
+
+input{
+    width:320px;
+    padding: 10px 10px;
+}
+.fulbtn{
+    width: 210px;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.fulbtn:hover{
+    cursor:wait;
+
+}
+
+.singlecommnt{
+    border: 2px solid rgb(110, 108, 108);
+    border-radius: 50px 50px;
+    margin-top:10px;
+    width: 80%;
+    margin-left: 11.5%;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+
+.commentcon{
+    margin-top:20px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
